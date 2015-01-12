@@ -6,6 +6,10 @@
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
   },
+  "files": [
+    "pascal-case.js",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/blakeembrey/pascal-case.git"
