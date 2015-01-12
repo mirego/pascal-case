@@ -4,7 +4,7 @@
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-Pascal case a string.
+Pascal case a string. Explicitly adds a single underscore between groups of numbers to keep readability (E.g. `1.20.5` becomes `1_20_5`, not `1205`).
 
 Supports Unicode (non-ASCII characters) and non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will result in an empty string.
 
