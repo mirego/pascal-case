@@ -21,4 +21,8 @@ describe('pascal case', function () {
   it('should pascal case pascal cased strings', function () {
     assert.equal(pascalCase('TestString'), 'TestString');
   });
+
+  it('should support locales', function () {
+    assert.equal(pascalCase('my STRING', 'tr'), 'MyStrıng');
+  });
 });

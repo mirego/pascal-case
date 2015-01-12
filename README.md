@@ -22,6 +22,8 @@ var pascalCase = require('pascal-case');
 pascalCase('string');        //=> "String"
 pascalCase('camelCase');     //=> "CamelCase"
 pascalCase('sentence case'); //=> "SentenceCase"
+
+pascalCase('MY STRING', 'tr'); //=> "MyStrıng"
 ```
 
 ## License
