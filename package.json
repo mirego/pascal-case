@@ -3,6 +3,7 @@
   "version": "1.1.1",
   "description": "Pascal case a string",
   "main": "pascal-case.js",
+  "typings": "pascal-case.d.ts",
   "scripts": {
     "lint": "standard",
     "test-std": "mocha -- -R spec --bail",
@@ -11,6 +12,7 @@
   },
   "files": [
     "pascal-case.js",
+    "pascal-case.d.ts",
     "LICENSE"
   ],
   "repository": {

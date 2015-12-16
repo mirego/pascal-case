@@ -27,6 +27,10 @@ pascalCase('sentence case') //=> "SentenceCase"
 pascalCase('MY STRING', 'tr') //=> "MyStrıng"
 ```
 
+## Typings
+
+Includes a [TypeScript definition](pascal-case.d.ts).
+
 ## License
 
 MIT
