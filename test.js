@@ -25,4 +25,8 @@ describe('pascal case', function () {
   it('should support locales', function () {
     assert.equal(pascalCase('my STRING', 'tr'), 'MyStrıng')
   })
+
+  it('should merge numbers', function () {
+    assert.equal(pascalCase('test 1 2 3', null, true), 'Test123')
+  })
 })
