@@ -4,6 +4,7 @@
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/pascal-case.svg)](https://greenkeeper.io/)
 
 Pascal case a string. Explicitly adds a single underscore between groups of numbers to keep readability (E.g. `1.20.5` becomes `1_20_5`, not `1205`).
 
