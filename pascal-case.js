@@ -9,6 +9,9 @@ var upperCaseFirst = require('upper-case-first')
  * @param  {boolean} [mergeNumbers]
  * @return {string}
  */
-module.exports = function (value, locale, mergeNumbers) {
+var pascalCase = function (value, locale, mergeNumbers) {
   return upperCaseFirst(camelCase(value, locale, mergeNumbers), locale)
 }
+
+module.exports = pascalCase;
+module.exports.pascalCase = pascalCase;
